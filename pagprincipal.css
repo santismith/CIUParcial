@@ -1,0 +1,108 @@
+.headerLogin {
+  background-color: #37bbed;
+}
+
+.textoHeader {
+  width: 375px;
+  height: 160px;
+  left: 45px;
+  top: 40px;
+
+  font-family: "Encode Sans", Arial, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+
+  color: #000000;
+}
+.imgheader {
+  max-height: 100%;
+  min-height: 20%;
+  width: 45%;
+  position: absolute;
+  left: 550px;
+  top: 0px;
+}
+
+.footerLogin {
+  position: absolute;
+  width: 1567px;
+  height: 90px;
+  left: 5px;
+  top: 775px;
+
+  background: #333333;
+  border: 3px solid #fcda59;
+}
+
+.imgFooter {
+  position: absolute;
+  left: 1200px;
+}
+
+.alumno {
+  font-family: "Encode Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+}
+
+h1,
+p {
+  font-family: "Encode Sans", Arial, sans-serif;
+}
+p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.cupon1 {
+  position: absolute;
+  width: 396px;
+  height: 480px;
+  left: 24px;
+  top: 273px;
+
+  background: #c4c4c4;
+  border-radius: 40px;
+}
+
+.cupon2 {
+  position: absolute;
+  width: 396px;
+  height: 480px;
+  left: 522px;
+  top: 272px;
+
+  background: #c4c4c4;
+  border-radius: 40px;
+}
+
+.cupon3 {
+  position: absolute;
+  width: 396px;
+  height: 480px;
+  left: 1020px;
+  top: 273px;
+
+  background: #c4c4c4;
+  border-radius: 40px;
+}
+
+.cerrarsesion {
+  position: absolute;
+  width: 141px;
+  height: 40px;
+  left: 1420px;
+  top: 720px;
+
+  background: #b61010;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+}
+
+.cerrarsesion:hover {
+  background: #801212;
+}

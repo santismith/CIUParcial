@@ -6,11 +6,11 @@
   width: 375px;
   height: 160px;
   left: 45px;
-  top: 10px;
+  top: 40px;
 
   font-family: "Encode Sans", Arial, sans-serif;
   font-size: 35px;
-  line-height: 41px;
+  font-weight: bold;
   text-align: center;
 
   color: #000000;
@@ -42,7 +42,8 @@
   height: 59px;
   left: 160px;
   top: 81px;
-  font-size: 40px;
+  font-size: 45px;
+  font-weight: bolder;
   line-height: 35px;
   text-align: center;
   font-family: "Encode Sans", Arial, sans-serif;
@@ -55,6 +56,7 @@
   left: 116px;
   top: 212px;
   font-family: "Encode Sans", Arial, sans-serif;
+  font-weight: bold;
   font-size: 25px;
   line-height: 29px;
 }
@@ -100,7 +102,7 @@
   left: 168px;
   top: 528px;
 
-  background: #1bbb1f;
+  background: #49db4e;
   box-sizing: border-box;
   border-radius: 100px;
 }
@@ -113,19 +115,31 @@
 .footerLogin {
   position: absolute;
   width: 1567px;
-  height: 119px;
-  left: 10px;
-  top: 770px;
+  height: 90px;
+  left: 60px;
+  top: 775px;
 
-  background: #37bbed;
-  border: 2px solid #000000;
+  background: #333333;
+  border: 3px solid #fcda59;
 }
 
 .imgFooter {
   position: absolute;
-  left: 1300px;
+  left: 1200px;
 }
 
-.fondo {
-  background-image: url("fondo.jpg");
+.derechos {
+  font-family: "Encode Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.invalid {
+  border: 2px solid #ff4c4c;
+}
+
+.error {
+  background: #ff4c4c;
+  padding: 10px;
+  border-radius: 7px;
 }
