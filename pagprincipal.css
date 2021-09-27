@@ -58,6 +58,20 @@ p {
   font-size: xx-large;
 }
 
+.cupon1,
+.cupon2,
+.cupon3 {
+  height: 100px;
+  background-color: red;
+  background-image: linear-gradient(
+    to right,
+    #fffdc2,
+    #fffdc2 15%,
+    #d7f0a2 15%,
+    #d7f0a2 85%,
+    #fffdc2 85%
+  );
+}
 .cupon1 {
   position: absolute;
   width: 396px;
@@ -65,7 +79,6 @@ p {
   left: 24px;
   top: 273px;
 
-  background: #c4c4c4;
   border-radius: 40px;
 }
 
@@ -76,7 +89,6 @@ p {
   left: 522px;
   top: 272px;
 
-  background: #c4c4c4;
   border-radius: 40px;
 }
 
@@ -86,8 +98,6 @@ p {
   height: 480px;
   left: 1020px;
   top: 273px;
-
-  background: #c4c4c4;
   border-radius: 40px;
 }
 
@@ -105,4 +115,14 @@ p {
 
 .cerrarsesion:hover {
   background: #801212;
+}
+
+.vencimiento {
+  font-family: "Encode Sans", Arial, sans-serif;
+  text-align: left;
+  font-size: small;
+  left: 200px;
+}
+.linea {
+  border-left: thick solid #fcda59;
 }
