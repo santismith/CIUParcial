@@ -119,9 +119,8 @@ p {
 
 .vencimiento {
   font-family: "Encode Sans", Arial, sans-serif;
-  text-align: left;
+  text-align: center;
   font-size: small;
-  left: 200px;
 }
 .linea {
   border-left: thick solid #fcda59;
